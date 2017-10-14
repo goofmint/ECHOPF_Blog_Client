@@ -1,0 +1,23 @@
+{
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "extends": "airbnb",
+  "rules": {
+    "jsx-a11y/img-uses-alt": "off",
+    "no-console": "off",
+    "class-methods-use-this": "off",
+    "jsx-a11y/label-uses-for": "off",
+    "jsx-a11y/mouse-events-map-to-key-events": "off",
+    "jsx-a11y/href-no-hash": "off",
+    "jsx-a11y/no-hash-href": "off",
+    "jsx-a11y/anchor-is-valid": ["warn", { "aspects": ["invalidHref"] }],
+    "jsx-a11y/redundant-alt": "off",
+    "jsx-a11y/valid-aria-role": "off"
+  },
+}

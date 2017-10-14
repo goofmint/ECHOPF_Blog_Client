@@ -1,0 +1,30 @@
+{
+  "name": "echopf-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "echopf-blog": "./index.js"
+  },
+  "dependencies": {
+    "commander": "^2.11.0",
+    "form-data": "^2.3.1",
+    "inquirer": "^3.3.0",
+    "pretty-data": "^0.40.0",
+    "strftime": "^0.10.0",
+    "to-markdown": "^3.1.0",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb": "^16.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
