@@ -24,6 +24,21 @@ module.exports = (() => {
       message: 'インスタンスID: ',
       validate: input => (input.match(/^[a-zA-Z0-9]*$/) ? true : 'インスタンスIDは英数字しか使えません。'),
     },
+    {
+      name: 'memberInstanceId',
+      message: 'ユーザ管理のインスタンスID: ',
+      validate: input => (input.match(/^[a-zA-Z0-9]*$/) ? true : 'インスタンスIDは英数字しか使えません。'),
+    },
+    {
+      name: 'login_id',
+      message: 'ログインID: ',
+      validate: input => (input.match(/^[a-zA-Z0-9]*$/) ? true : 'インスタンスIDは英数字しか使えません。'),
+    },
+    {
+      name: 'password',
+      message: 'パスワード: ',
+      validate: input => (input.match(/^[a-zA-Z0-9]*$/) ? true : 'インスタンスIDは英数字しか使えません。'),
+    },
   ]);
 
   class BlogInit extends BlogBase {
